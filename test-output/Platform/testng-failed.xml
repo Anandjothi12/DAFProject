@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Platform]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Jothilakshmi@0308"/>
+    <parameter name="username" value="jothilakshmi.anand@atos.net"/>
+    <classes>
+      <class name="OrganizationalDetails.PlatformAdminTc">
+        <methods>
+          <include name="acceptLoginCookie"/>
+          <include name="setUpDriver"/>
+          <include name="TC7_3"/>
+          <include name="TC12"/>
+          <include name="TC5"/>
+          <include name="tearDown"/>
+          <include name="TC7_4"/>
+        </methods>
+      </class> <!-- OrganizationalDetails.PlatformAdminTc -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Platform] -->

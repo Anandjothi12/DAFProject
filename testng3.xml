@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DriverManagement">
+  <test thread-count="5" name="Test">
+	  
+	  <parameter name="username" value="kolli-navya.sri@atos.net" />
+
+        <parameter name="password" value="SriNavya@1814" />
+        
+    <classes>
+      <class name="DriverManagement.DriverManagementTc"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- DriverManagement -->
